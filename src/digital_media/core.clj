@@ -8,11 +8,10 @@
   (:import
    (twitter.callbacks.protocols SyncSingleCallback)))
 
-(def my-creds (make-oauth-creds "368DL0LWRIDRewN4kfsQFDYYD"
-                                "nGiIOF5wJ6YGxWZSNFoQI4RPtXfM3IifYC0bsWLt50zSM38stZ"
-                                "3072053125-9BRhUIBcJSTlpWNMCsWr0Bs1lWT8kUYAV0byY4M"
-                                "Vqe6dpZj2nE0kGGRgR8XMaNfcUcH7LVgRMxO5WkOWVgaF"
-                                ))
+(def my-creds (make-oauth-creds "YH1KhWkh7vQ1vwy5QiUN6ttBS"
+                                "bzMjERZ2mkL2mTBV39eG3uYa6X9xMy80bJ7bB63ABmtfwIkdTw"
+                                "1654107158-6LpjapKfOhjTUXboQXDMLV9V44nhXTSiNOW33ti"
+                                "dX3vMSQFUERyiECRU9KffYyNIqI0qC62RvsIdnvQ3pKDH"))
 
 (def extract-body (SyncSingleCallback. response-return-body
                                        response-throw-error

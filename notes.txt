@@ -1,0 +1,11 @@
+Retweets
+Number of retweets from mine
+How many followers
+What is a follower - Indegree
+Number of mentions
+
+1 - Follower ids
+2 - Who i Follow
+3 - What i tweet
+4 - Indegree and outdegree following
+5 - Number of retweets
